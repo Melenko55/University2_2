@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-04T10:07:01.002Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="hPz-2_e6yeQRB6JYiMYp" version="16.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-04T10:22:58.610Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="-dNu3kx4N6sSOgBaaimh" version="16.5.2" type="github">
   <diagram id="Bmkna3ELwngQ-vSaTJ8M" name="Page-1">
-    <mxGraphModel dx="862" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1673" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -603,6 +603,11 @@
         <mxCell id="y8VfV2tP41wYXXXsGfXy-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;endArrow=block;endFill=1;" edge="1" parent="1" source="y8VfV2tP41wYXXXsGfXy-137" target="y8VfV2tP41wYXXXsGfXy-145">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="y8VfV2tP41wYXXXsGfXy-147" value="Mqtt" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="y8VfV2tP41wYXXXsGfXy-146">
+          <mxGeometry x="0.1318" y="1" relative="1" as="geometry">
+            <mxPoint x="2" y="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="y8VfV2tP41wYXXXsGfXy-137" value="Device Interface" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="462.35" y="1925" width="115.29" height="50" as="geometry" />
         </mxCell>
@@ -626,6 +631,12 @@
         </mxCell>
         <mxCell id="y8VfV2tP41wYXXXsGfXy-145" value="MQTT Server" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="380" y="2035" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="y8VfV2tP41wYXXXsGfXy-151" value="DB" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="1810" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="y8VfV2tP41wYXXXsGfXy-152" value="Device" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1250.25" y="1810" width="110" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
