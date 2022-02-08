@@ -33,4 +33,11 @@ module.exports = class SecondaryHashTable {
     hashJ(value) {
         hashHelper(value, this.aj, this.bj, this.p, this.Sj)
     }
+
+    print(index) {
+        let string = `a${index} = ${this.aj} \tb${index} = ${this.bj}\t S${index}=[`
+        this.Sj.forEach((el, index) => string += ` ${el[0]}, `)
+        string += ']'
+        return string;
+    }
 }

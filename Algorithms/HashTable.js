@@ -27,11 +27,11 @@ class HashTable {
     }
 
     showTable() {
-        this.hashes.forEach(hash => {
+        this.hashes.forEach((hash, index) => {
             if (hash instanceof SecondaryHashTable) {
-                console.log(hash.Sj.filter(arrEl => arrEl));
+                console.log(`${index}: ${hash.print(index)}`);
             } else if (hash) {
-                console.log(hash[0]);
+                console.log(`${index}: a${index} = 0 \tb${index} = 0\t S${index}=${hash[0]}`);
             }
         })
     }
@@ -40,7 +40,8 @@ class HashTable {
 const main = () => {
     try {
         const data = fs.readFileSync(__dirname + '\\text.txt', 'utf8')
-        const hashTable = new HashTable(data.split('\r\n').map(val => +val))
+        const arrayOfNumbers = data.split('\r\n').filter(el => el !== '').map(val => +val)
+        const hashTable = new HashTable(arrayOfNumbers)
         hashTable.showTable()
     } catch (err) {
         console.error(err)
